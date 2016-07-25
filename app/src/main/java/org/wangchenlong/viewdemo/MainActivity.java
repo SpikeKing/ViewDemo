@@ -35,8 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
     private GestureDetector mGestureDetector; // 手势检测器
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    @Override protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
@@ -75,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+
         mGestureDetector.setOnDoubleTapListener(new GestureDetector.OnDoubleTapListener() {
             @Override public boolean onSingleTapConfirmed(MotionEvent e) {
                 Log.e(TAG, "严格的单击行为");

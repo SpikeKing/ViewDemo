@@ -156,4 +156,8 @@ mScaledTouchSlop = ViewConfiguration.get(context).getScaledTouchSlop(); // 用�
 
 ---
 
+效果
+
+![动画](https://raw.githubusercontent.com/SpikeKing/ViewDemo/master/article/device-demo.gif)
+
 在Android中, 熟悉View的基础概念, 有助于我们开发自定义控件, 也可以解决View的冲突等问题, 掌握View还是很有必要的.
